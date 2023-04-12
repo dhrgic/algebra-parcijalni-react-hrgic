@@ -1,0 +1,33 @@
+.InputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 500px;
+  margin: 24px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.Input {
+  width: 300px;
+  font-size: 20px;
+  padding: 8px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid darkred;
+  font-weight: 600;
+}
+
+.Input-Button {
+  width: 150px;
+  font-size: 20px;
+  font-weight: 600px;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: cadetblue;
+
+  &:hover {
+    background-color: cornflowerblue;
+    color: antiquewhite;
+  }
+}
