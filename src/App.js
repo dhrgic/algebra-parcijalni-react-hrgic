@@ -1,13 +1,7 @@
-import Input from "./components/Input/Input";
-import Results from "./components/Results/Results";
+import Home from "./pages/Home";
 
 function App() {
-  return (
-    <>
-      <Input></Input>
-      <Results></Results>
-    </>
-  );
+  return <Home></Home>;
 }
 
 export default App;

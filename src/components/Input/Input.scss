@@ -6,16 +6,22 @@
   margin: 24px auto;
   justify-content: center;
   align-items: center;
+  margin-top: 90px;
 }
 
 .Input {
-  width: 300px;
+  width: 350px;
   font-size: 20px;
   padding: 8px;
   border-radius: 5px;
   outline: none;
   border: 1px solid darkred;
   font-weight: 600;
+}
+
+.Input-Buttons {
+  display: flex;
+  gap: 12px;
 }
 
 .Input-Button {
